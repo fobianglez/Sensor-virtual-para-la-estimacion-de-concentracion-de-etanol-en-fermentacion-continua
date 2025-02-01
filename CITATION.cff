@@ -1,0 +1,30 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  SENSOR VIRTUAL PARA LA ESTIMACIÓN DE CONCENTRACIÓN DE
+  ETANOL EN FERMENTACIÓN CONTINUA
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Fabian
+    family-names: Gonzalez Morales
+    email: fabian.gonzalez193@tectijuana.edu.mx
+    affiliation: Instituto Tecnoloógico de Tijuana
+repository-code: >-
+  https://github.com/fobianglez/Sensor-virtual-para-la-estimacion-de-concentracion-de-etanol-en-fermentacion-continua.git
+abstract: >-
+  Proyecto de residencia profesional para la carrera de Ing.
+  Biomédica, implementación de un sensor virtual basado en
+  un modelo mecanicista para la estimación de de
+  concentración de etanol en fermantación continua.
+keywords:
+  - Sensor virtual
+  - Kluyveromyces marxianus
+  - Fermentacion continua
+  - Modelado mecanicista
+  - Estimación de etanol
+license: BSD-2-Clause
