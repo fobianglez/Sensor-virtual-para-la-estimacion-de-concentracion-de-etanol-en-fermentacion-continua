@@ -25,10 +25,26 @@ void setup() {
   delay(1000);          // Pausa para establecer conexión
 }
 
-// Bucle principal del programa
+/*
+  // Fase 1 del bucle principal del programa
 void loop() {
   delay(100);         // Retardo de 100 ms entre iteraciones
-  Serial.println(x);  // Envía el valor actual de x (Biomasa) por el puerto serial
+  // Envía tiempo y valores actuales por puerto serial en formato CSV
+  Serial.print(ta, 3);
+  Serial.print(",");
+  Serial.print(x);
+  Serial.print(",");
+  Serial.print(y);
+  Serial.print(",");
+  Serial.println(z);
+  rungeKutta4(x, y, z, ta, dt);  // Llama a la función para calcular el siguiente estado
+}
+*/
+  // Fase 2 del bucle principal del programa
+void loop() {
+  delay(100);         // Retardo de 100 ms entre iteraciones
+  // Envía valor actual de biomasa por puerto serial 
+  Serial.println(x);
   rungeKutta4(x, y, z, ta, dt);  // Llama a la función para calcular el siguiente estado
 }
 
